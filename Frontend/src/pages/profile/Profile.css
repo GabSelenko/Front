@@ -1,0 +1,66 @@
+/* ─── Profile Page ─── */
+.profile-page {
+  max-width: 620px;
+  margin: 0 auto;
+  animation: fadeInUp 0.4s var(--ease-out);
+}
+
+.profile-page h1 {
+  margin: 0 0 2rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.profile-card {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 1.25rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-base);
+}
+
+.profile-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.profile-card h2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.profile-email {
+  color: var(--text-secondary);
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.6rem 0.85rem;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+}
+
+.danger-zone {
+  border-color: var(--error-border);
+  background: var(--error-bg);
+}
+
+.danger-zone:hover {
+  box-shadow: 0 4px 16px rgba(207, 34, 46, 0.08);
+}
+
+.danger-zone h2 {
+  color: var(--error);
+}
+
+.danger-zone p {
+  color: var(--text-secondary);
+  margin: 0 0 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}

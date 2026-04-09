@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1304614e-4e50-45af-9bc2-dacbfcae1ad9" name="Changes" comment="feat: endpoints para admin">
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/ServicoDeCotacaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/ServicoDeCotacaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/config/DatabaseSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/config/seeder/DatabaseSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/controller/QuotationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/controller/QuotationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/dto/request/CreateHealthPlanRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/dto/request/CreateHealthPlanRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/dto/response/HealthPlanResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/dto/response/HealthPlanResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/entity/HealthPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/domain/entity/HealthPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/repository/HealthPlanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/repository/HealthPlanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/service/HealthPlanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/service/HealthPlanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/service/QuotationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/ServicoDeCotacao/service/QuotationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/test/java/com/example/ServicoDeCotacao/integrationTests/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/test/java/com/example/ServicoDeCotacao/integrationTests/controller/AuthControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/test/java/com/example/ServicoDeCotacao/integrationTests/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/test/java/com/example/ServicoDeCotacao/integrationTests/controller/UserControllerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Backend" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="38aTAlIIvwLyoqPJ8KpXpWvXkfk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AuthControllerTest$Register.shouldFailWhenRegisterUserWithExistingEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsExpired.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsInvalid.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$forgotPassword.shouldFailWhenRequestingPasswordResetForUnverifiedAccount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$login.shouldFailWhenLoggingInWithUnverifiedUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$resend.shouldFailWhenResendingCodeToAnAlreadyVerifiedEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$resetPassword.shouldFailWhenResettingPasswordWithExpiredToken.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$resetPassword.shouldFailWhenResettingPasswordWithInvalidToken.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest$verify.shouldFailWhenVerifyingAnAlreadyVerifiedAccount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ServicoDeCotacaoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gabriel/Developer/ServicoDeCotacao/src/test/java/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/example/ServicoDeCotacao/integrationTests" />
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/ServicoDeCotacao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ServicoDeCotacao.domain.dto.request" />
+      <recent name="com.example.ServicoDeCotacao.service" />
+      <recent name="com.example.ServicoDeCotacao.domain.entity" />
+      <recent name="com.example.ServicoDeCotacao.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserControllerTest">
+    <configuration name="AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsExpired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ServicoDeCotacao.integrationTests.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest$accessToken" />
+      <option name="METHOD_NAME" value="shouldFailWhenRefreshTokenIsExpired" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ServicoDeCotacao.integrationTests.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest$accessToken" />
+      <option name="METHOD_NAME" value="shouldFailWhenRefreshTokenIsInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest$resetPassword.shouldFailWhenResettingPasswordWithExpiredToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ServicoDeCotacao.integrationTests.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest$resetPassword" />
+      <option name="METHOD_NAME" value="shouldFailWhenResettingPasswordWithExpiredToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ServicoDeCotacao.integrationTests.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.AuthControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ServicoDeCotacao.integrationTests.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ServicoDeCotacao.integrationTests.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoDeCotacaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ServicoDeCotacao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ServicoDeCotacao.ServicoDeCotacaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.AuthControllerTest" />
+        <item itemvalue="JUnit.AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsExpired" />
+        <item itemvalue="JUnit.AuthControllerTest$accessToken.shouldFailWhenRefreshTokenIsInvalid" />
+        <item itemvalue="JUnit.AuthControllerTest$resetPassword.shouldFailWhenResettingPasswordWithExpiredToken" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1304614e-4e50-45af-9bc2-dacbfcae1ad9" name="Changes" comment="" />
+      <created>1769036540433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769036540433</updated>
+      <workItem from="1769036541608" duration="2879000" />
+      <workItem from="1769039591339" duration="6331000" />
+      <workItem from="1769137110520" duration="35000" />
+      <workItem from="1769191362571" duration="15304000" />
+      <workItem from="1769445210228" duration="39714000" />
+      <workItem from="1770408472287" duration="903000" />
+      <workItem from="1770667805481" duration="13913000" />
+      <workItem from="1770842380606" duration="10167000" />
+      <workItem from="1772229832215" duration="46490000" />
+      <workItem from="1773344243807" duration="39000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1769039031690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769039031690</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Implementando autenticacao via jwt">
+      <option name="closed" value="true" />
+      <created>1769039257207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769039257207</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Configurando dockerfile e docker-compose">
+      <option name="closed" value="true" />
+      <created>1769039429832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769039429832</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Implementando excecoes personalizadas">
+      <option name="closed" value="true" />
+      <created>1769121454137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769121454137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Implementando endpoints para User">
+      <option name="closed" value="true" />
+      <created>1769121506859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769121506859</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Implementando classe HealthPlan">
+      <option name="closed" value="true" />
+      <created>1769201252362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769201252362</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Implementando endpoints para HealthPlanController">
+      <option name="closed" value="true" />
+      <created>1769210156323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769210156323</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Implementando caching via redis">
+      <option name="closed" value="true" />
+      <created>1769462506323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769462506323</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CI: Configurando workflows para test/build">
+      <option name="closed" value="true" />
+      <created>1769471182592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1769471182592</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: Implementando classe Quotation">
+      <option name="closed" value="true" />
+      <created>1769898076543</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769898076543</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: Implementando endpoints QuotationController">
+      <option name="closed" value="true" />
+      <created>1769898213002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769898213002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: criando migrations para tabela quotations">
+      <option name="closed" value="true" />
+      <created>1769898356540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769898356540</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Implementando Single active session via refresh Tokens">
+      <option name="closed" value="true" />
+      <created>1770673849511</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770673849511</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Implementando exportacao de cotacoes para pdf via iText">
+      <option name="closed" value="true" />
+      <created>1770679353111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770679353111</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: Movendo logica de negocio da exportacao de pdf, para service">
+      <option name="closed" value="true" />
+      <created>1770681703363</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770681703363</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor: Adicionando tabela de coparticipacao ao exportar">
+      <option name="closed" value="true" />
+      <created>1770854655849</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770854655849</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Implementando redes credenciadas para planos de saude">
+      <option name="closed" value="true" />
+      <created>1772582779719</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772582779719</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: Substituindo IDs internos por UUIDs publicos para uso em endpoints">
+      <option name="closed" value="true" />
+      <created>1772752000798</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772752000798</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: endpoints para admin">
+      <option name="closed" value="true" />
+      <created>1772839747016</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772839747016</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="feat: Implementando autenticacao via jwt" />
+    <MESSAGE value="feat: Configurando dockerfile e docker-compose" />
+    <MESSAGE value="feat: Implementando excecoes personalizadas" />
+    <MESSAGE value="feat: Implementando endpoints para User" />
+    <MESSAGE value="feat: Implementando classe HealthPlan" />
+    <MESSAGE value="feat: Implementando endpoints para HealthPlanController" />
+    <MESSAGE value="feat: Implementando caching via redis" />
+    <MESSAGE value="CI: Configurando workflows para test/build" />
+    <MESSAGE value="feat: Implementando classe Quotation" />
+    <MESSAGE value="feat: Implementando endpoints QuotationController" />
+    <MESSAGE value="feat: criando migrations para tabela quotations" />
+    <MESSAGE value="feat: Implementando Single active session via refresh Tokens" />
+    <MESSAGE value="feat: Implementando exportacao de cotacoes para pdf via iText" />
+    <MESSAGE value="refactor: Movendo logica de negocio da exportacao de pdf, para service" />
+    <MESSAGE value="refactor: Adicionando tabela de coparticipacao ao exportar" />
+    <MESSAGE value="feat: Implementando redes credenciadas para planos de saude" />
+    <MESSAGE value="feat: Substituindo IDs internos por UUIDs publicos para uso em endpoints" />
+    <MESSAGE value="feat: endpoints para admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: endpoints para admin" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

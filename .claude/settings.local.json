@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "Bash(curl:*)",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInN1YiI6ImFkbWluQGVtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImV4cCI6MTc3NDU2ODI0MiwiaWF0IjoxNzc0NTY3NjQyfQ.Xx6HfXVdufmi6bf5yZ0JeWFsHG6TfiCXh8je6FZvZWU\" __NEW_LINE_36206d3a09d08671__ for ID in \"4f37b429-f2a3-46c8-b84e-de3043df9cc5\" \"0e5cdca5-ad11-406d-a9a2-38adf966b607\" \"e89aabf6-26b4-4ec0-ae53-a1cf3bad7957\")",
+      "Bash(do curl:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
